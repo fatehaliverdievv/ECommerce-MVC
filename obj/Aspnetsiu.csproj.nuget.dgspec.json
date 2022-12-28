@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fateh\\Desktop\\commerce-main\\Aspnetsiu.csproj": {}
+    "C:\\Users\\Fateh\\Desktop\\Code\\commerce-main\\Aspnetsiu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fateh\\Desktop\\commerce-main\\Aspnetsiu.csproj": {
+    "C:\\Users\\Fateh\\Desktop\\Code\\commerce-main\\Aspnetsiu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fateh\\Desktop\\commerce-main\\Aspnetsiu.csproj",
+        "projectUniqueName": "C:\\Users\\Fateh\\Desktop\\Code\\commerce-main\\Aspnetsiu.csproj",
         "projectName": "Aspnetsiu",
-        "projectPath": "C:\\Users\\Fateh\\Desktop\\commerce-main\\Aspnetsiu.csproj",
+        "projectPath": "C:\\Users\\Fateh\\Desktop\\Code\\commerce-main\\Aspnetsiu.csproj",
         "packagesPath": "C:\\Users\\Fateh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fateh\\Desktop\\commerce-main\\obj\\",
+        "outputPath": "C:\\Users\\Fateh\\Desktop\\Code\\commerce-main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

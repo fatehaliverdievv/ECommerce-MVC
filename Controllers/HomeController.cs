@@ -26,14 +26,14 @@ namespace Aspnetsiu.Controllers
             categories.Add(new Category { Name = "Ayaqqabi", Img = "cat-3.jpg", Id = 11, Products = products });
 
             //Product
-            products.Add(new Product{Name = "Camera",Price = 123.00f,Description = "camerayam satiliram",Img = "product-1.jpg"});
-            products.Add(new Product{Name = "Koynek",Price = 30.00f,Description = "koyneyem satiliram",Img = "product-2.jpg"});
-            products.Add(new Product{Name = "Lampa",Price = 21.00f,Description = "lampayam satiliram",Img = "product-3.jpg"});
-            products.Add(new Product{Name = "Nike",Price = 99.00f, Description = "ayaqqabiyam satiliram", Img = "product-4.jpg"});
-            products.Add(new Product{Name = "Dron",Price = 400.00f,Description = "dronam satiliram",Img = "product-5.jpg"});
-            products.Add(new Product{Name = "Apple Watch",Price = 99.99f,Description = "saatam satiliram",Img = "product-6.jpg"});
-            products.Add(new Product{Name = "Paltar",Price = 50.00f,Description = "paltaram satiliram",Img = "product-7.jpg"});
-            products.Add(new Product{Name = "Krem",Price = 21.00f,Description = "kremem satiliram",Img = "product-8.jpg"});
+            products.Add(new Product{Name = "Camera",DiscountPrice = 123.00f, Price = 210.00f, Description = "camerayam satiliram",Img = "product-1.jpg"});
+            products.Add(new Product{Name = "Koynek", DiscountPrice = 30.00f, Price = 45.00f, Description = "koyneyem satiliram",Img = "product-2.jpg"});
+            products.Add(new Product{Name = "Lampa", DiscountPrice = 21.00f, Price = 54.00f, Description = "lampayam satiliram",Img = "product-3.jpg"});
+            products.Add(new Product{Name = "Nike", DiscountPrice = 99.00f, Price = 178.00f, Description = "ayaqqabiyam satiliram", Img = "product-4.jpg"});
+            products.Add(new Product{Name = "Dron", DiscountPrice = 400.00f, Price = 600.00f, Description = "dronam satiliram",Img = "product-5.jpg"});
+            products.Add(new Product{Name = "Apple Watch", DiscountPrice = 99.99f, Price = 145.00f, Description = "saatam satiliram",Img = "product-6.jpg"});
+            products.Add(new Product{Name = "Paltar", DiscountPrice = 50.00f, Price = 76.00f,Description = "paltaram satiliram",Img = "product-7.jpg"});
+            products.Add(new Product{Name = "Krem", DiscountPrice = 21.00f,Price=30.00f,Description = "kremem satiliram",Img = "product-8.jpg"});
 
             //Slider
             sliders.Add( new Slider {Id=1,Title="Men Fashion", Description="sortikle ireli",Img= "carousel-1.jpg" });
@@ -46,14 +46,14 @@ namespace Aspnetsiu.Controllers
         public IActionResult Shop()
         {
             List<Product> products = new List<Product>();
-            products.Add(new Product { Name = "Camera", Price = 123.00f, Description = "camerayam satiliram", Img = "product-1.jpg" });
-            products.Add(new Product { Name = "Koynek", Price = 30.00f, Description = "koyneyem satiliram", Img = "product-2.jpg" });
-            products.Add(new Product { Name = "Lampa", Price = 21.00f, Description = "lampayam satiliram", Img = "product-3.jpg" });
-            products.Add(new Product { Name = "Nike", Price = 99.00f, Description = "ayaqqabiyam satiliram", Img = "product-4.jpg" });
-            products.Add(new Product { Name = "Dron", Price = 400.00f, Description = "dronam satiliram", Img = "product-5.jpg" });
-            products.Add(new Product { Name = "Apple Watch", Price = 99.99f, Description = "saatam satiliram", Img = "product-6.jpg" });
-            products.Add(new Product { Name = "Paltar", Price = 50.00f, Description = "paltaram satiliram", Img = "product-7.jpg" });
-            products.Add(new Product { Name = "Krem", Price = 21.00f, Description = "kremem satiliram", Img = "product-8.jpg" });
+            products.Add(new Product { Name = "Camera", DiscountPrice = 123.00f, Price = 210.00f, Description = "camerayam satiliram", Img = "product-1.jpg" });
+            products.Add(new Product { Name = "Koynek", DiscountPrice = 30.00f, Price = 45.00f, Description = "koyneyem satiliram", Img = "product-2.jpg" });
+            products.Add(new Product { Name = "Lampa", DiscountPrice = 21.00f, Price = 54.00f, Description = "lampayam satiliram", Img = "product-3.jpg" });
+            products.Add(new Product { Name = "Nike", DiscountPrice = 99.00f, Price = 178.00f, Description = "ayaqqabiyam satiliram", Img = "product-4.jpg" });
+            products.Add(new Product { Name = "Dron", DiscountPrice = 400.00f, Price = 600.00f, Description = "dronam satiliram", Img = "product-5.jpg" });
+            products.Add(new Product { Name = "Apple Watch", DiscountPrice = 99.99f, Price = 145.00f, Description = "saatam satiliram", Img = "product-6.jpg" });
+            products.Add(new Product { Name = "Paltar", DiscountPrice = 50.00f, Price = 76.00f, Description = "paltaram satiliram", Img = "product-7.jpg" });
+            products.Add(new Product { Name = "Krem", DiscountPrice = 21.00f, Price = 30.00f, Description = "kremem satiliram", Img = "product-8.jpg" });
             return View(products);
         }
         public IActionResult ShopDetail()

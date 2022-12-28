@@ -8,29 +8,29 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aspnetsiu
 build_property.RootNamespace = Aspnetsiu
-build_property.ProjectDir = C:\Users\Fateh\Desktop\commerce-main\
+build_property.ProjectDir = C:\Users\Fateh\Desktop\Code\commerce-main\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Fateh\Desktop\commerce-main
+build_property.MSBuildProjectDirectory = C:\Users\Fateh\Desktop\Code\commerce-main
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Fateh/Desktop/commerce-main/Views/Home/Index.cshtml]
+[C:/Users/Fateh/Desktop/Code/commerce-main/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fateh/Desktop/commerce-main/Views/Home/Shop.cshtml]
+[C:/Users/Fateh/Desktop/Code/commerce-main/Views/Home/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fateh/Desktop/commerce-main/Views/Home/ShopDetail.cshtml]
+[C:/Users/Fateh/Desktop/Code/commerce-main/Views/Home/ShopDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fateh/Desktop/commerce-main/Views/Shared/_defaultLayout.cshtml]
+[C:/Users/Fateh/Desktop/Code/commerce-main/Views/Shared/_defaultLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9kZWZhdWx0TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fateh/Desktop/commerce-main/Views/_ViewStart.cshtml]
+[C:/Users/Fateh/Desktop/Code/commerce-main/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
